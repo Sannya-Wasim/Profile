@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <!-- <link rel="stylesheet" href="./styles/index.03ebbd8e.css" /> -->
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <header
+      class="flex sticky bg-white top-0 h-14 px-4 shadow-xl dark:shadow-zinc-200 dark:shadow-sm md:shadow-none justify-end items-center dark:bg-black"
+    >
+      <div class="h-max w-max flex items-end absolute left-4">
+        <a
+          href=""
+          class="p-2 h-max w-max text-blue-600 dark:text-yellow-600 text-2xl font-extrabold before:absolute before:h-full before:w-[140%] before:rounded-r-full before:bg-blue-200 dark:before:bg-yellow-200 before:-z-10 before:top-0 before:-left-4"
+        >
+          Sannya Wasim</a
+        >
+      </div>
+      <div
+        id="nav"
+        class="nav flex absolute top-0 left-0 h-screen w-max -translate-x-[300%] duration-300 bg-blue-200 dark:bg-yellow-900 shadow-md shadow-slate-400 dark:shadow-slate-50 md:relative md:transform-none md:h-max md:shadow-none dark:md:shadow-none md:bg-transparent dark:md:bg-transparent md:opacity-100"
+      >
+        <ul
+          id="nav_list"
+          class="nav_list flex flex-col p-8 my-auto md:flex-row"
+        >
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="index.html"
+            >
+              Home</a
+            >
+          </li>
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="#about"
+            >
+              About</a
+            >
+          </li>
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="#services"
+            >
+              Services</a
+            >
+          </li>
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="projects.html"
+            >
+              Projects</a
+            >
+          </li>
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="#testimonals"
+            >
+              Testimonals</a
+            >
+          </li>
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="#contact"
+            >
+              Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <button
+        class="darkmode relative overflow-hidden h-6 w-6 mx-2 rounded-full bg-blue-600 dark:bg-yellow-500 hover:opacity-70 border-x border-y border-blue-600 dark:border-yellow-500 before:absolute before:h-full before:w-full before:bg-white dark:before:bg-black before:left-1/2 dark:before:-left-1/2 before:top-0"
+        onclick="themeToggle()"
+      ></button>
+      <button
+        id="menu"
+        class="menu ml-1 relative h-5 w-8 before:absolute before:h-[6px] before:w-full before:rounded-xl before:opacity-70 before:top-0 before:bg-black dark:before:bg-white before:left-0 after:absolute after:h-[6px] after:w-full after:bottom-0 after:bg-black dark:after:bg-white after:border-0 after:rounded-xl after:opacity-70 after:left-0 z-20 md:hidden"
+        onclick="toggle()"
+      ></button>
+    </header>
+
+    <!-- Projects Container -->
+    <div class="flex flex-col mx-6 p-4 justify-center md:flex-row">
+      <!-- Card 01 -->
+      <div
+        class="project-card m-2 p-6 w-60 h-96 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="w-20 m-auto rounded-t-lg"
+          src="./images/finance_logger.png"
+          alt=""
+        />
+        <h3
+          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Finance Logger
+        </h3>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          A basic Finance Logger application that records all your invoices and
+          payments built using Typescript.
+        </p>
+        <div class="p-5">
+          <a
+            href="https://sannya-wasim.github.io/Typescript-Finance-Logger/public/index.html"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Website
+          </a>
+          <a
+            href="https://github.com/Sannya-Wasim/Typescript-Finance-Logger"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Github
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 02 -->
+      <div
+        class="project-card m-2 p-4 w-60 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="w-20 rounded-t-lg m-auto"
+          src="./images/payment-gateway.png"
+          alt=""
+        />
+        <h3
+          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Stripe Payment Gateway
+        </h3>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          A payment gateway built as part of internship project by
+          <b>The Sparks Foundation</b> which handles payments using Stripe.js.
+        </p>
+        <div class="p-5">
+          <a
+            href="https://sannya-wasim.github.io/Tsf-Payment-Gateway/public/index.html"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Website
+          </a>
+          <a
+            href="https://github.com/Sannya-Wasim/Stripe-Payment-Gateway"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Github
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 03 -->
+      <div
+        class="project-card m-2 p-6 w-60 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="w-40 m-auto rounded-t-lg"
+          src="./images/event-mgmt.png"
+          alt=""
+        />
+        <h3
+          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Event Management Website
+        </h3>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          A bootstrap powered static HTML page created as part of my interview
+          process for a software house.
+        </p>
+        <div class="p-5">
+          <a
+            href="https://sannya-wasim.github.io/Event-Management-Bootstrap/"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Website
+          </a>
+          <a
+            href="https://github.com/Sannya-Wasim/Event-Management-Bootstrap"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Github
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 04 -->
+      <div
+        class="project-card m-2 p-6 w-60 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img class="w-20 m-auto rounded-t-lg" src="./images/aic.png" alt="" />
+        <h3
+          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Artificial Intelligence Club
+        </h3>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          An ongoing <b>Full Stack</b> website for NED University's society,
+          Artificial Intelligence Club comprising of a 30 member team of both
+          Frontend and Backend developers.
+        </p>
+        <div class="p-5">
+          <a
+            href="http://aiclub.pk/"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Website
+          </a>
+          <a
+            href="http://aiclub.pk/"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Github
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Container -->
+    <div class="flex flex-col mx-6 p-4 justify-center md:flex-row">
+      <!-- Card 05 -->
+      <div
+        class="project-card m-2 p-6 w-60 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="w-40 m-auto rounded-t-lg"
+          src="./images/creative-agency.png"
+          alt=""
+        />
+        <h3
+          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Creative Agency
+        </h3>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          A static HTML page built as part of my Tailwind CSS tutorial.
+        </p>
+        <div class="p-5">
+          <a
+            href="https://sannya-wasim.github.io/Creative-Agency-Tailwind/"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Website
+          </a>
+          <a
+            href="https://github.com/Sannya-Wasim/Creative-Agency-Tailwind"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Github
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
