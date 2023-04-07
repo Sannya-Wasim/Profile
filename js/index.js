@@ -22,6 +22,7 @@ document.onclick = function (e) {
 function toggle() {
   menu.classList.toggle("open");
   nav.classList.toggle("open");
+  console.log("clicked");
 }
 
 // theme toggle function

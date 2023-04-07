@@ -5,3 +5,7 @@
 .project-card {
   height: 30rem;
 }
+
+.projects a {
+  margin-left: 32rem;
+}
