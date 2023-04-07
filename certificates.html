@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <!-- <link rel="stylesheet" href="./styles/index.03ebbd8e.css" /> -->
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <header
+      class="flex sticky bg-white top-0 h-14 px-4 shadow-xl dark:shadow-zinc-200 dark:shadow-sm md:shadow-none justify-end items-center dark:bg-black"
+    >
+      <div class="h-max w-max flex items-end absolute left-4">
+        <a
+          href=""
+          class="p-2 h-max w-max text-blue-600 dark:text-yellow-600 text-2xl font-extrabold before:absolute before:h-full before:w-[140%] before:rounded-r-full before:bg-blue-200 dark:before:bg-yellow-200 before:-z-10 before:top-0 before:-left-4"
+        >
+          Sannya Wasim</a
+        >
+      </div>
+      <div
+        id="nav"
+        class="nav flex absolute top-0 left-0 h-screen w-max -translate-x-[300%] duration-300 bg-blue-200 dark:bg-yellow-900 shadow-md shadow-slate-400 dark:shadow-slate-50 md:relative md:transform-none md:h-max md:shadow-none dark:md:shadow-none md:bg-transparent dark:md:bg-transparent md:opacity-100"
+      >
+        <ul
+          id="nav_list"
+          class="nav_list flex flex-col p-8 my-auto md:flex-row"
+        >
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="index.html"
+            >
+              Home</a
+            >
+          </li>
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="#about"
+            >
+              About</a
+            >
+          </li>
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="#services"
+            >
+              Services</a
+            >
+          </li>
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="projects.html"
+            >
+              Projects</a
+            >
+          </li>
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="#testimonals"
+            >
+              Testimonals</a
+            >
+          </li>
+          <li class="h-max w-max my-2 text-slate-700 mx-auto">
+            <a
+              class="nav_items dark:ring-zinc-100 text-zinc-700 dark:text-zinc-200 hover:text-white hover:bg-gradient-to-t from-blue-700 to-blue-400 dark:hover:bg-gradient-to-t dark:hover:from-yellow-700 dark:hover:to-yellow-400 hover:ring-0 px-6 py-1 md:px-3 md:text-sm md:mx-1 lg:mx-2 lg:px-4 rounded-full active:bg-blue-300"
+              href="#contact"
+            >
+              Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <button
+        class="darkmode relative overflow-hidden h-6 w-6 mx-2 rounded-full bg-blue-600 dark:bg-yellow-500 hover:opacity-70 border-x border-y border-blue-600 dark:border-yellow-500 before:absolute before:h-full before:w-full before:bg-white dark:before:bg-black before:left-1/2 dark:before:-left-1/2 before:top-0"
+        onclick="themeToggle()"
+      ></button>
+      <button
+        id="menu"
+        class="menu ml-1 relative h-5 w-8 before:absolute before:h-[6px] before:w-full before:rounded-xl before:opacity-70 before:top-0 before:bg-black dark:before:bg-white before:left-0 after:absolute after:h-[6px] after:w-full after:bottom-0 after:bg-black dark:after:bg-white after:border-0 after:rounded-xl after:opacity-70 after:left-0 z-20 md:hidden"
+        onclick="toggle()"
+      ></button>
+    </header>
+
+    <h3
+      class="h-max w-max mx-auto mt-8 text-2xl md:text-3xl font-semibold my-4 text-blue-700 dark:text-yellow-500"
+    >
+      Certificates
+    </h3>
+    <!-- Projects Container -->
+    <div class="flex flex-col mx-6 p-4 justify-center md:flex-row">
+      <!-- Card 01 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/Sannya_Wasim_GDSC_KIET_WebDev.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Web Developement Bootcamp'23
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+
+      <!-- Card 02 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/MindLuster_Typescript_786904952.jpg"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Typescript Complete Course
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+
+      <!-- Card 03 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/MindLuster_TailwindCSS_786901326.jpg"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Tailwind Complete Course
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+    </div>
+
+    <!-- Project Container -->
+    <div class="flex flex-col mx-6 p-4 justify-center md:flex-row">
+      <!-- Card 04 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/DevOps_DevTown_Certificate.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          DevOps Training Bootcamp
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+
+      <!-- Card 05 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/DevOps_Google_Certificate.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          DevOps Training Bootcamp
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+
+      <!-- Card 06 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/DevOps_Microsoft_Certificate.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          DevOps Training Bootcamp
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+    </div>
+
+    <!-- Container -->
+    <div class="flex flex-col mx-6 p-4 justify-center md:flex-row">
+      <!-- Card 07 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/Coursera_Python_Certificate.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Python for Data Science, AI and Development
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+
+      <!-- Card 08 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/KodersPlace_Certificate.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Python Course
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+
+      <!-- Card 09 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/NFTP_Certificate.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Creative Design
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+    </div>
+
+    <!-- Container -->
+    <div class="flex flex-col mx-6 p-4 justify-center md:flex-row">
+      <!-- Card 10 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/Sannya_Wasim_GoogleColab_Certificate.jpg"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Google Colab Python
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+    </div>
+
+    <!-- Internship -->
+    <h3
+      class="h-max w-max mx-auto text-2xl md:text-3xl font-semibold my-4 text-blue-700 dark:text-yellow-500"
+    >
+      Experience
+    </h3>
+    <div class="flex flex-col mx-6 p-4 justify-center md:flex-row">
+      <!-- Card 01 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg h-60"
+          src="./images/certificates/Sannya Wasim_Utech _Appointment_Letter.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Utech Services
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+
+      <!-- Card 02 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/AIC_internship_certificate.jpg"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          AIC Frontend Internship
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+
+      <!-- Card 03 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/TSF_Internship_Completion_Certificate.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          The Sparks Foundation-Web Development Internship
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+    </div>
+
+    <!-- Container -->
+    <div class="flex flex-col mx-6 p-4 justify-center md:flex-row">
+      <!-- Card 04 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/TSF_Internship_Silver_Hand.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          The Sparks Foundation-Web Development Internship
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+
+      <!-- Card 05 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/TSF_Internship_Selection_Certificate.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          The Sparks Foundation-Web Development Internship
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+
+      <!-- Card 09 -->
+      <div
+        class="project-card m-2 p-6 w-96 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl hover:scale-100 duration-300"
+      >
+        <img
+          class="m-auto rounded-t-lg"
+          src="./images/certificates/TSF_Internship_Completion_Certificate.png"
+          alt=""
+        />
+        <h5
+          class="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          The Sparks Foundation-Web Development Internship
+        </h5>
+        <p class="mt-3 font-normal text-gray-700 dark:text-gray-400">
+          Received NFTP Certificate issued by <b>NED Academy</b> for 3-month
+          complete training in Creative Design Domain covering Adobe
+          Illustrator, Adobe Photoshop, Figma and Freelancing for Graphic
+          Designing.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
