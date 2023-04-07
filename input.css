@@ -9,3 +9,13 @@
 .projects a {
   margin-left: 32rem;
 }
+
+.contact-card {
+  width: 20rem;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    width: 70rem;
+  }
+}

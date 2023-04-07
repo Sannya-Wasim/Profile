@@ -596,6 +596,10 @@ video {
   margin: 0.5rem;
 }
 
+.m-6 {
+  margin: 1.5rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -603,6 +607,11 @@ video {
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .mx-6 {
@@ -630,6 +639,10 @@ video {
   margin-bottom: auto;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -646,16 +659,28 @@ video {
   margin-left: 0.25rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mt-8 {
@@ -702,6 +727,10 @@ video {
   height: 1.5rem;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
 .h-64 {
   height: 16rem;
 }
@@ -725,14 +754,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-60 {
-  height: 15rem;
 }
 
 .max-h-64 {
@@ -767,6 +788,10 @@ video {
   width: 20rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .w-\[70vw\] {
   width: 70vw;
 }
@@ -786,10 +811,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .max-w-2xl {
@@ -1116,6 +1137,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1276,6 +1302,11 @@ video {
   --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity));
 }
 
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -1286,6 +1317,16 @@ video {
 
 .projects a {
   margin-left: 32rem;
+}
+
+.contact-card {
+  width: 20rem;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    width: 70rem;
+  }
 }
 
 .first-letter\:text-4xl::first-letter {
@@ -1745,6 +1786,10 @@ video {
   .md\:max-h-fit {
     max-height: -moz-fit-content;
     max-height: fit-content;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:-translate-y-1\/2 {
