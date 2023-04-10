@@ -21,7 +21,9 @@ document.onclick = function (e) {
 // Menu toggle function in phones
 function toggle() {
   menu.classList.toggle("open");
+  console.log("menu");
   nav.classList.toggle("open");
+  console.log("nav");
   console.log("clicked");
 }
 

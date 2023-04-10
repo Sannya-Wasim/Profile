@@ -735,6 +735,10 @@ video {
   height: 16rem;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .h-96 {
   height: 24rem;
 }
@@ -754,10 +758,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-80 {
-  height: 20rem;
 }
 
 .max-h-64 {
@@ -1790,10 +1790,6 @@ video {
   .md\:max-h-fit {
     max-height: -moz-fit-content;
     max-height: fit-content;
-  }
-
-  .md\:w-1\/2 {
-    width: 50%;
   }
 
   .md\:-translate-y-1\/2 {
