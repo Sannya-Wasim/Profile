@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/index.03ebbd8e.css" />
   </head>
-  <body>
+  <body class="dark:bg-black">
     <div
       id="header"
       class="wrapper relative bg-white container h-auto w-screen m-auto max-w-7xl z-50 dark:bg-black"
@@ -89,24 +90,31 @@
 
     <!-- Contact Container -->
     <div
-      class="contact-container flex flex-col m-auto mt-20 p-6 h-98 text-2xl bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:flex-row"
+      class="contact-container flex flex-col m-auto mt-20 p-6 h-98 text-2xl bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 md:flex-row"
     >
       <img
         class="w-60 mx-20 rounded-t-lg p-2"
         src="./images/profile-image.png"
         alt=""
       />
-      <div class="contact-card m-auto p-2">
+      <div class="contact-card m-auto p-2 dark:bg-black">
         <h3
-          class="text-4xl font-bold tracking-tight text-gray-900 dark:text-white"
+          class="text-4xl font-bold tracking-tight text-gray-900 dark:text-yellow-600"
         >
           Contact Me
         </h3>
         <hr class="mb-2" />
         <div class="mt-10 font-normal text-gray-700 dark:text-gray-400">
           <span class="m-6 mb-1 flex">
-            <img class="mr-1" src="./images/icons/linkedin.png" alt="" />
-            <a href="https://www.linkedin.com/in/sannya-wasim-57606b1b8"
+            <img
+              class="mr-1"
+              src="./images/icons/linkedin.png"
+              alt=""
+              class="dark:invert"
+            />
+            <a
+              href="https://www.linkedin.com/in/sannya-wasim-57606b1b8"
+              class="dark:text-zinc-200"
               >Linkedin</a
             >
           </span>
@@ -121,5 +129,6 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="./js/index.js"></script>
   </body>
 </html>
